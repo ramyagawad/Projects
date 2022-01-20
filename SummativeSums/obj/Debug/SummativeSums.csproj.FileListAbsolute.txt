@@ -1,0 +1,6 @@
+C:\Users\Ramy\Documents\M3 C#\Assessment exercises\SummativeSums\bin\Debug\SummativeSums.exe.config
+C:\Users\Ramy\Documents\M3 C#\Assessment exercises\SummativeSums\bin\Debug\SummativeSums.exe
+C:\Users\Ramy\Documents\M3 C#\Assessment exercises\SummativeSums\bin\Debug\SummativeSums.pdb
+C:\Users\Ramy\Documents\M3 C#\Assessment exercises\SummativeSums\obj\Debug\SummativeSums.csproj.CoreCompileInputs.cache
+C:\Users\Ramy\Documents\M3 C#\Assessment exercises\SummativeSums\obj\Debug\SummativeSums.exe
+C:\Users\Ramy\Documents\M3 C#\Assessment exercises\SummativeSums\obj\Debug\SummativeSums.pdb
