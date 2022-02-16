@@ -1,0 +1,6 @@
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.alculator.Tests\bin\Debug\netstandard2.0\WES.alculator.Tests.deps.json
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.alculator.Tests\bin\Debug\netstandard2.0\WES.alculator.Tests.dll
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.alculator.Tests\obj\Debug\netstandard2.0\WES.alculator.Tests.csprojAssemblyReference.cache
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.alculator.Tests\obj\Debug\netstandard2.0\WES.alculator.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.alculator.Tests\obj\Debug\netstandard2.0\WES.alculator.Tests.AssemblyInfoInputs.cache
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.alculator.Tests\obj\Debug\netstandard2.0\WES.alculator.Tests.AssemblyInfo.cs

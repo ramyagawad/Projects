@@ -1,0 +1,6 @@
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.Calculator.BLL\bin\Debug\WES.Calculator.BLL.dll
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.Calculator.BLL\bin\Debug\WES.Calculator.BLL.pdb
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.Calculator.BLL\obj\Debug\WES.Calculator.BLL.csprojAssemblyReference.cache
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.Calculator.BLL\obj\Debug\WES.Calculator.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.Calculator.BLL\obj\Debug\WES.Calculator.BLL.dll
+C:\Users\Ramy\Documents\M3 C#\M3C#Repository\WES.Calculator\WES.Calculator.BLL\obj\Debug\WES.Calculator.BLL.pdb
