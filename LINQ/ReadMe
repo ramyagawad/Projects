@@ -1,0 +1,45 @@
+LINQ Query Writing
+Overview
+Project source code: LINQExercises.zip
+
+This assessment gives you an opportunity to work with sample data organized into collections that you will write LINQ queries against. The downloaded solution file contains a Program.cs file that contains a list of exercise methods with summary comments that describe the data that should be outputted.
+
+In each method, you may retrieve the appropriate sample data from the DataLoader class. This class contains a few public members that will be referenced by the exercises:
+
+Member	Description
+LoadProducts()	Loads the products sample data set.
+LoadCustomers()	Loads the customers sample data set.
+NumbersA	An integer array of numbers
+NumbersB	An integer array of numbers
+NumbersC	An integer array of numbers
+Note that you should not modify the DataLoader class or its members.
+
+Product Sample Data
+The product sample data returns a List<Product>. The Product model consists of the following members:
+
+Member	Type	Description
+ProductID	int	Unique ID for the product.
+ProductName	string	Name of the product (ex: Chai).
+Category	string	Category group of the product (ex: Beverages).
+UnitPrice	decimal	Cost per 1 unit of product.
+UnitsInStock	int	Number of units currently in stock.
+Customer Sample Data
+The customer sample data returns a List<Customer>. The Customer model consists of the following members:
+
+Member	Type	Description
+CustomerID	string	Unique ID for the customer.
+CompanyName	string	Name of the company (ex: Around the Horn).
+Address	string	Street address of the company (ex: 120 Hanover Sq.).
+City	string	City of company address (ex: London).
+PostalCode	string	Postal code of the company address (ex: WA1 1DP).
+Country	string	Country code of the company address (ex: UK).
+Region	string	Geographic region/state of the company (ex: CA).
+Phone	string	Phone number for the company.
+Fax	string	Faxnumber for the company.
+Orders	List<Order>	A list of order objects containing the order history for this customer record.
+The Order model contains the following members:
+
+Member	Type	Description
+OrderID	int	Unique ID for the order.
+OrderDate	DateTime	Date of the order.
+Total	decimal	Total amount of order paid
