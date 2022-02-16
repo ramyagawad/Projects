@@ -1,0 +1,5 @@
+Requirements
+This program will be a C# Console Application named DogGenetics.
+
+- The program asks the user for the name of their dog and then generates a fake DNA background report on the pet dog.
+- It should assign a random percentage to five different dog breeds. The total of the percentages should add up to 100%!
