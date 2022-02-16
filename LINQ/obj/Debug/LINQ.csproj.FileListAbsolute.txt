@@ -1,0 +1,9 @@
+D:\Git\Curriculum\dotnet\ObjectOrientedProgramming\03-Collections-LINQ-SystemIO-DateTime\Asssessments\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\bin\Debug\Customers.xml
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\bin\Debug\LINQ.exe
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\bin\Debug\LINQ.pdb
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\obj\Debug\LINQ.exe
+C:\Users\Ramy\Documents\M3 C#\Assessment 3\LINQ\obj\Debug\LINQ.pdb
