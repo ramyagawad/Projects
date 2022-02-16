@@ -1,0 +1,42 @@
+ Battleship.zip
+
+You have recently joined a games company that has been working on an implementation of the classic Battleship game. In Battleship, each player has their own hidden board which is a 10 x 10 grid where the rows are denoted by letters A-J and the columns by the numbers 1-10.
+
+In Battleship, each player has 5 ships of different sizes. For example, a Carrier takes up 5 grid spaces while a Destroyer takes up 2 grid spaces. Ships can be placed perpendicular (not diagonal) anywhere within the board grid and are not allowed to overlap. Players keep their board secret from each other.
+
+Once the game begins, players take turns firing shots at each other's board by calling out coordinates, for example: B5 (2nd row, 5th column). The player being fired at calls out the result, "hit", "miss", or "hit and sunk". If a player calls out a coordinate that they have previously called out (or an invalid one), they simply pick another coordinate. A ship is considered sunk if each of its grid coordinates has been hit by the opposing player.
+
+A previous developer had started writing the logic for this game and has created the game (business) logic for the boards. Unfortunately, before they could build the console user interface they won the lottery and promptly quit their job to pursue their dream of living on a beach in Costa Rica. This means not only is the user interface unfinished, but also that they did not leave us any formal documentation though they did leave some unit tests. Before walking out the door, the developer did assure us that the logic of placing ships on the board and determining responses to shots fired is working properly and that "the UI just needs to call the board methods".
+
+Examining our project management system, we found the following tickets from the previous developer's project plan:
+
+Complete	Task
+Y	Create class to represent coordinates on the board.
+Y	Create class for ships of different lengths with a ShipType enum.
+Y	Create class that given a ship type will return a properly sized ship.
+Y	Create class to represent the board.
+Y	Keep track of the shot history for the board.
+Y	Create logic to place a ship on the board. Players will choose a coordinate, ship type, and direction (up/down/left/right). Ships may not overlap or run off the bounds of the board grid.
+Y	Each shot fired will either be invalid, duplicate, hit, miss, hit and sunk, or victory if all ships are sunk. Create an enum to represent this.
+N	Create a start menu / splash screen for the game.
+N	2 users are needed to play this game, query and store their names.
+N	Randomly determine which player goes first.
+N	Coordinates in the game board are numbers, ex: 5, 10. Players enter coordinates using letters and numbers, ex: E10. Create a method for prompting, validating, and translating a user's coordinate
+N	Create a game workflow object that will contain two boards, keep track of which player's turn it is, and process each player's turn.
+N	Create a setup workflow object which creates a board instance for the game workflow with ships populated by the user. Each player should be prompted to place their ships on their board by giving a starting coordinate and a direction. Clear the screen when a player is finished so the other player can't cheat!
+N	A player's turn is as follows:
+Show a grid with marks from their board's shot history. Place a yellow M in a coordinate if a shot has been fired and missed at that location or a red H if a shot has been fired that has hit.
+Prompt the user for a coordinate entry (ex: B10).
+Validate the entry; if valid, create a coordinate object, convert the letter to a number, and call the opponent board's FireShot() method.
+Retrieve the response from the FireShot method and display an appropriate message to the user.
+Remember to prompt to continue and clear the screen to keep things clean.
+N	When the game ends, prompt the players if they would like to play again. If so, go back to setting up the boards. If not, quit the program.
+We also have a list of shot statuses and the appropriate response that was found drawn on a whiteboard in the developer's cubicle:
+
+Status	Response
+Invalid	Repeat turn.
+Duplicate	Repeat turn.
+Hit	Inform player of hit (but not ship type). Next player's turn.
+Hit and Sunk	Inform player of sunken ship and what type. Next player's turn.
+Miss	Next player's turn.
+Victory	The player that fired the shot has won the game by sinking all the ships.
